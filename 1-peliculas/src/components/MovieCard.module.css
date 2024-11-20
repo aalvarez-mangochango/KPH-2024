@@ -1,0 +1,27 @@
+.moviecard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.moviecard:hover{
+    opacity: 0.5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.imagenes{
+    border-radius: 10px;
+}
+
+@media (max-width: 560px){
+    imagenes{
+        width: 90%;
+        height: auto;
+    }
+}
+
+.title{
+    color: azure;
+}
